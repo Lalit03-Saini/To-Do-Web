@@ -78,7 +78,7 @@
     opacity: 1;
     margin-left: 488px;
     margin-top: 120px;
-    box-shadow:  3px 3px 10px black;
+    box-shadow: 3px 3px 10px black;
 }
 
 .div1 {
@@ -134,4 +134,114 @@
     width: 18px;
     height: 18px;
     opacity: 1;
+}
+
+@media(max-width: 600px) {
+    .upper-container {
+        width: 90%;
+    }
+
+    .heading {
+        background-color: #FFFFFF;
+        width: 360px;
+        height: 60px;
+        margin-left: 0%;
+    }
+
+    #tasks {
+        width: auto;
+        display: contents;
+        position: absolute;
+        margin-left: 2px;
+    }
+
+    #list {
+        width: auto;
+        display: contents;
+        position: absolute;
+        margin-left: 2px;
+    }
+
+
+    .upper-container2 {
+        width: 80%;
+
+    }
+
+    .circle {
+        text-align: center;
+        margin-left: 150px;
+
+
+    }
+
+    .addlist {
+        display: none;
+    }
+
+    .card {
+        margin-top: 100px;
+        margin-left: 12px;
+        width: 336px;
+        height: 360px;
+        margin-left: auto;
+    }
+
+    .card1 {
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 336px;
+        height: 360px;
+        margin-left: auto;
+    }
+
+    .card2 {
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 336px;
+        height: 360px;
+        margin-left: auto;
+    }
+
+    .card3 {
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 336px;
+        height: 360px;
+        margin-left: auto;
+    }
+
+    .card4 {
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 336px;
+        height: 360px;
+        margin-left: auto;
+    }
+
+
+
+    .pop-up {
+        margin-top: -1724px;
+        margin-left: -127px;
+        width: 340px;
+        height: 200px;
+    }
+
+    #addnewlist {
+        font-size: 25px;
+        margin-left: -180px;
+    }
+
+    .pop-up-button {
+        margin-left: 193px;
+    }
+
+    .circle1 {
+        margin-left: 12px;
+    }
+
+    .back {
+        margin-left: 45px;
+    }
 }
